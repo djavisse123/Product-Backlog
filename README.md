@@ -24,7 +24,10 @@ The implementation of this project is required to be created in Java.
 
 ### UML Diagram
 The overall design of this project contains 6 packages with a various amount of classes in each package to make the Product Backlog project work. The project also features the MVC Design Pattern where the non-UI classes are part of the Model View Controller while the UI classes are part of the View Controller. The Model View Controller handles the information processing of the Product Backlog program while View Controller also for the user to interact with the Model View Controller components. The UML below shows all the different classes and each package they belong to. Some classes may contain extra private methods that are not present on the UML. 
-![Uploading Product BacklogUML.png…]()
+
+
+![Product BacklogUML](https://user-images.githubusercontent.com/112775148/189508189-31256121-1182-430c-b44f-6f4de6021b1f.png)
+
 
 ### View Controller
 **UI**: This package contains the ***ProductManagerGUI*** class. This class is the view controller of the MVC pattern and is designed for users to create products, delete products, edit products, add tasks, delete tasks, and edit tasks. **NOTE: The entirety of this class was provided.**
